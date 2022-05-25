@@ -20,6 +20,8 @@ public class RectangleApp {
 		System.out.printf("AREA = %.2f%n", rect.getArea());
 		System.out.printf("PERIMETER = %.2f%n", rect.getPerimeter());
 		System.out.printf("DIAGONAL = %.2f%n", rect.getDiagonal());
+		
+		sc.close();
 	}
 
 }
